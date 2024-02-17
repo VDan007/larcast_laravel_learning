@@ -18,3 +18,9 @@ a:active{
 a:visited{
     color: pink;
 }
+
+.category{
+    display: inline;
+    border: 2px solid yellowgreen;
+    padding:2px 5px;
+}

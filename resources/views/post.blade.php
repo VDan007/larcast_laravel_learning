@@ -6,6 +6,11 @@
             {!!  $post->title  !!}
 
         </h1>
+        
+        <p class="category">
+            Category: {{$post->category->name}}
+        </p>
+
         <div>
              {!! $post->body !!}
         </div>
