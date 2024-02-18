@@ -8,7 +8,7 @@
         </h1>
         
         <p class="category">
-            Category: {{$post->category->name}}
+           by Author Name in Category: <a href="/categories/{{$post->category->slug}}"> {{$post->category->name}}  </a>
         </p>
 
         <div>

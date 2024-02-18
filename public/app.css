@@ -9,15 +9,11 @@ article + article{
     margin-top: 55px;
 }
 
-a{
-    color:red;
-}
+
 a:active{
     color:yellowgreen;
 }
-a:visited{
-    color: pink;
-}
+
 
 .category{
     display: inline;
